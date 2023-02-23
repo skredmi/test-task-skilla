@@ -8,7 +8,7 @@ import { Filter } from "../../shared/Filter/Filter";
 export const Header = () => {
   return (
     <div className={styles.header}>
-      <p>Среда, 13 окт</p>
+      <p className={styles.date}>Среда, 13 окт</p>
       <div className={styles.bar}>
         <SlideBar count="20 из 30 шт" theme="good">
           Новые звонки
@@ -20,8 +20,8 @@ export const Header = () => {
           Конверсия в заказ
         </SlideBar>
       </div>
-      <Button prefix={<Icon nameIcon="search" className={styles.searchIcon}/>} theme="transparent" />
-      <Filter hasIcon>ИП Сидорова Александра Михайловна</Filter>
+      <Button prefix={<Icon nameIcon="search" className={styles.searchIcon}/>} theme="transparent" className={styles.search} />
+      <Filter hasIcon className={styles.user}>ИП Сидорова Александра Михайловна</Filter>
       <Filter hasIcon>
         <Icon nameIcon="avatar" className={styles.avatar} />
       </Filter>

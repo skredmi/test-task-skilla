@@ -14,6 +14,7 @@ import { ReactComponent as ExclamationMarkIcon } from "./exclamation-mark.svg";
 import { ReactComponent as SearchIcon } from "./search.svg";
 import { ReactComponent as ArrowIcon } from "./arrow.svg";
 import { ReactComponent as AvatarIcon } from "./avatar.svg";
+import { ReactComponent as CalendarIcon } from "./calendar.svg";
 
 export const icons = {
   briefcase: BriefCaseIcon,
@@ -32,4 +33,5 @@ export const icons = {
   search: SearchIcon,
   arrow: ArrowIcon,
   avatar: AvatarIcon,
+  calendar: CalendarIcon
 };

@@ -8,7 +8,6 @@ export const Button = ({
   nameIcon,
   type = "button",
   theme,
-  size,
   className,
   prefix,
   postfix,
@@ -19,8 +18,10 @@ export const Button = ({
   const blockClass = classnames(styles.button, className, {
     [styles.colorTransparent]: theme === "transparent",
     [styles.colorPrimary]: theme === "primary",
+    [styles.colorSecondary]: theme === "secondary",
     [styles.active]: active,
   });
+
   return (
     <button className={blockClass} type={type} onClick={onClick} {...props}>
       {prefix && <div className={styles.prefix}>{prefix}</div>}

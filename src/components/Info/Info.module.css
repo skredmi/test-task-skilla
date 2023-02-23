@@ -1,0 +1,50 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 48px;
+  padding: 0 120px;
+  box-sizing: border-box;
+}
+
+.infoSum {
+  width: 145px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  background: #ffffff;
+  border-radius: 48px;
+  color: #899cb1;
+}
+
+.infoButton {
+  padding: 0;
+  height: 24px;
+}
+
+.infoIcon {
+  fill: #005ff8;
+  fill-opacity: 1;
+}
+
+.sum {
+  padding: 0;
+  font-weight: 500;
+  color: #122945;
+}
+
+.date {
+  color: #005ff8;
+  padding: 0;
+}
+
+.leftArrow {
+  rotate: 90deg;
+}
+
+.rightArrow {
+  rotate: -90deg;
+}

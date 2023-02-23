@@ -24,6 +24,7 @@
 }
 
 .slideBar {
+  width: 156px;
   border-radius: 12px;
   border-bottom: thick solid #dee6f5;
   position: relative;
