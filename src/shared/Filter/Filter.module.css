@@ -1,0 +1,12 @@
+.field {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 56px;
+}
+
+.iconReverse {
+  transform: rotate(180deg);
+}

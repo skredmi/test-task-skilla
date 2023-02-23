@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148%;
+  color: #122945;
+}
+
+.goodColor {
+  color: #28a879;
+}
+
+.mediumColor {
+  color: #ffd500;
+}
+
+.badColor {
+  color: #ea1a4f;
+}
+
+.slideBar {
+  border-radius: 12px;
+  border-bottom: thick solid #dee6f5;
+  position: relative;
+}
+
+.slideBar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12px 0px 0px 12px;
+  width: 50%;
+}
+
+.slideBarGoodColor::before {
+  border-bottom: thick solid #28a879;
+}
+
+.slideBarMediumColor::before {
+  border-bottom: thick solid #ffd500;
+}
+.slideBarBadColor::before {
+  border-bottom: thick solid #ea1a4f;
+}

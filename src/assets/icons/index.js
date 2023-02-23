@@ -11,6 +11,9 @@ import { ReactComponent as SettingsIcon } from "./settings.svg";
 import { ReactComponent as YellowDotIcon } from "./yellow-dot.svg";
 import { ReactComponent as PlusIcon } from "./plus.svg";
 import { ReactComponent as ExclamationMarkIcon } from "./exclamation-mark.svg";
+import { ReactComponent as SearchIcon } from "./search.svg";
+import { ReactComponent as ArrowIcon } from "./arrow.svg";
+import { ReactComponent as AvatarIcon } from "./avatar.svg";
 
 export const icons = {
   briefcase: BriefCaseIcon,
@@ -25,5 +28,8 @@ export const icons = {
   settings: SettingsIcon,
   yellowDot: YellowDotIcon,
   plus: PlusIcon,
-  exclamationMark: ExclamationMarkIcon
+  exclamationMark: ExclamationMarkIcon,
+  search: SearchIcon,
+  arrow: ArrowIcon,
+  avatar: AvatarIcon,
 };

@@ -1,7 +1,4 @@
 import React from "react";
-import classnames from "classnames";
-
-import styles from "./Icon.module.css";
 import { icons } from "../../assets/icons/index";
 
 export const Icon = ({ nameIcon, className }) => {
@@ -9,7 +6,5 @@ export const Icon = ({ nameIcon, className }) => {
   if (!IconComponent) {
     return null;
   }
-  const blockClass = classnames(styles.icon, className);
-
-  return <IconComponent className={blockClass} />;
+  return <IconComponent className={className} />;
 };

@@ -1,0 +1,29 @@
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 21px 0 21px 120px;
+  background: #ffffff;
+  box-shadow: 0px 4px 5px #e9edf3;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148%;
+  color: #899cb1;
+}
+
+.bar {
+  display: flex;
+  gap: 56px;
+  margin-left: 86px;
+  margin-right: 197px;
+}
+
+.searchIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
